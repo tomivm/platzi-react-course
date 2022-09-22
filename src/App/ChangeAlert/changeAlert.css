@@ -1,0 +1,40 @@
+.changeAlert--backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.274);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.changeAlert {
+  padding: 2em;
+  border-radius: 0.5em;
+  height: auto;
+  width: auto;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.changeAlert button {
+  all: unset;
+}
+
+.changeAlert button {
+  padding: 0.5em;
+  border-radius: 0.7em;
+  outline: gray 5px auto;
+
+  background-color: azure;
+  text-transform: uppercase;
+}
+
+.changeAlert button:focus,
+.changeAlert button:hover {
+  outline: #61dafa 5px auto;
+}
